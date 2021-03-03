@@ -12,7 +12,7 @@ def get_high_quality_video(streams):
     return streams.get_highest_resolution()
 
 def download_video(video):
-    print("Downloading..")
+    print("Downloading...")
     video.download()
     print("Download completed")
 
